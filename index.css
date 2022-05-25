@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background: url('bg.webp'); */
+    font-family:Lobster;
+    color: rgba(25, 19, 73, 0.96);
+}
+
+
+.left {
+    display: inline;
+    position: absolute;
+    left: 60px;
+    top: 2px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 40px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline;
+    cursor: pointer ;
+
+}
+
+#logo {
+    width: 65px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+#name {
+    float: left;
+    padding: 5px;
+    line-height: 19px;
+    text-align: center;
+    color: rgb(37 28 106 / 96%);
+    cursor: pointer;
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 34px 23px;
+    rgb(37 28 106 / 96%);
+    color: rgb(37 28 106 / 96%);
+
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(37 28 106 / 96%);
+    color: aliceblue;
+    font-family: Lobster;
+    font-size: larger;
+
+}
+
+.navbar li a:hover {
+    color: rgba(65, 56, 121, 0.96);
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: rgba(56, 44, 150, 0.96);
+}
+
+h1{
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 70px;
+}
+b{
+    color: rgb(72, 69, 210);
+    font-size: 80px;
+}
+p{
+    margin-left: 22px;
+    font-size: 25px;
+}
+
+.content{
+    text-align: center;
+}
+
+footer{
+    height: 15vh;
+    display: grid;
+    place-content: center;
+    background-color: #f5f5f5;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-top: 150px;
+}
